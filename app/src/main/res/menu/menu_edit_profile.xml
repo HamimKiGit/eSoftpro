@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.esoftproindia.esoftpro.ehisab.AddDepositOnEmp">
+
+    <item
+        android:id="@+id/menuEditProfileReject"
+        android:title="@string/reject"
+        android:icon="@drawable/reject_user"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuEditProfileAccept"
+        android:title="@string/accept"
+        android:icon="@drawable/accept_user"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuEditProfileSave"
+        android:title="@string/save"
+        android:icon="@drawable/save"
+        app:showAsAction="ifRoom" />
+
+</menu>

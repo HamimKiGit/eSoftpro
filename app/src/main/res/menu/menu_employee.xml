@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSearchEmployee"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuProfileEmployee"
+        android:icon="@drawable/person"
+        android:title="@string/profile"/>
+
+    <item
+        android:id="@+id/menuBatchEmployee"
+        android:icon="@drawable/batch"
+        android:title="@string/batches" />
+    <item
+        android:id="@+id/menuCollegeEmployee"
+        android:icon="@drawable/college"
+        android:title="@string/colleges" />
+    <item
+        android:id="@+id/menuEnquiryEmployee"
+        android:icon="@drawable/inquiry"
+        android:title="@string/enquiry" />
+    <item
+        android:id="@+id/menuMemberEmployee"
+        android:icon="@drawable/person"
+        android:title="@string/member" />
+    <item
+        android:id="@+id/menuLocationEmployee"
+        android:icon="@drawable/location_user"
+        android:title="@string/whereMyEmployee" />
+    <item
+        android:id="@+id/menuCertificatesEmployee"
+        android:icon="@drawable/certificates"
+        android:title="@string/certificates" />
+
+    <item
+        android:id="@+id/menuLogoutEmployee"
+        android:icon="@drawable/signout"
+        android:title="@string/logout" />
+    <item
+        android:id="@+id/menuInfoEmployee"
+        android:icon="@drawable/information"
+        android:title="@string/info" />
+
+
+</menu>

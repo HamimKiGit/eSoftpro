@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myadmin.MySearchList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/searchFriendName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterStudentName"
+            android:background="@drawable/circle"
+            android:inputType="textPersonName"
+            android:imeOptions="actionSearch"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_margin="10dp"/>
+        <View
+            android:id="@+id/t2"
+            android:layout_below="@id/searchFriendName"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorPrimaryDark"/>
+        <ListView
+            android:id="@+id/searchList"
+            android:layout_below="@id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

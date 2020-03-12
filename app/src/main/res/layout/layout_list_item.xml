@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/attendanceRelativeLay"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <ImageView
+        android:id="@+id/attendanceDpLay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="center"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/attendanceNameLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:layout_toEndOf="@id/attendanceDpLay"
+        android:gravity="center"
+        android:layout_toRightOf="@id/attendanceDpLay"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/attendanceStatusLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/app_name"
+        android:textSize="12sp"
+        android:layout_below="@id/attendanceNameLay"
+        android:layout_toEndOf="@id/attendanceDpLay"
+        android:layout_toRightOf="@id/attendanceDpLay" />
+    <TextView
+        android:id="@+id/attendanceTimeLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attendanceNameLay"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp" />
+    <TextView
+        android:id="@+id/attendanceIdLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/attendanceTypeLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</RelativeLayout>

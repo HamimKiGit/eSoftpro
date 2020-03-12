@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.esoftproindia.esoftpro">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dailyreport.ViewDailyReport"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".dailyreport.ShowDailyReport"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".dailyreport.AddDailyReport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".enquiry.ViewEnquiry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".enquiry.EnquiryList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".certificates.CertificatesActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".enquiry.AddEnquiry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".myclassroom.AddQuestionRoom"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".myclassroom.AnswerRoom"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".myclassroom.QuestionRoom" />
+        <activity
+            android:name=".myclassroom.ClassRoomDashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".myemp.MyEmployeeTab"
+            android:label="@string/title_activity_my_employee_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".question_analysis.MarksList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".question_analysis.TakeExamQuetion"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".question_analysis.QuestionList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".question_analysis.AddNewQuestionAnalysis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".analysis.UpdateAnalysisList" />
+        <activity
+            android:name=".analysis.AddAnalysisList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".analysis.AnalysisList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ehisab.AddWithdrawOnEmp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ehisab.DashboardEHisab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ehisab.ShowEHisabOnEmp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ehisab.ShowWithdrawListOnEmp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ehisab.ShowDepositListOnEmp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ehisab.AddDepositOnEmp"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".status.ViewStatus"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".myadmin.UpdateProfileEmployee" />
+        <activity
+            android:name=".profiles.EditProfileEmployee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profiles.ProfileEmployee"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".myadmin.UpdateProfileStudent" />
+        <activity
+            android:name=".myadmin.MySearchList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyCollegesStudent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".adds.MyColleges"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyBatchStudent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".adds.MyBatches"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".myatnds.TakeAttendance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".myatnds.MyAttendance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mynotification.AddNotification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mynotification.ViewNotification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mynotification.MyNotification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profiles.EditProfileStudent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".panel.EmployeePanel"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".panel.StudentPanel"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".profiles.ProfileStudent"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".panel.UnknownPanel"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" /> <!-- <provider -->
+        <!-- android:name="com.facebook.FacebookContentProvider" -->
+        <!-- android:authorities="com.facebook.app.FacebookContentProvider{805621686506479}" -->
+        <!-- android:exported="true" /> -->
+        <service android:name=".ExampleService" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+</manifest>

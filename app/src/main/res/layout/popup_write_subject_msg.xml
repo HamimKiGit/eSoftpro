@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/popupWSMSubject"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/subject"
+        android:textSize="18sp"
+        android:background="@color/cardview_dark_background"
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:maxHeight="100dp"
+        android:shadowColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/popupWSMDescription"
+        android:layout_marginTop="4dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:textSize="18sp"
+        android:background="@color/cardview_dark_background"
+        android:minWidth="150dp"
+        android:padding="10dp"
+        android:maxHeight="400dp"
+        android:inputType="textMultiLine"
+        android:shadowColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/popupWSMBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="@string/post"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>

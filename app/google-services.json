@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "626419237736",
+    "firebase_url": "https://eattendance-1f05f.firebaseio.com",
+    "project_id": "eattendance-1f05f",
+    "storage_bucket": "eattendance-1f05f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626419237736:android:00cc65f4c7eb162d",
+        "android_client_info": {
+          "package_name": "com.esoftproindia.attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626419237736-ssc9kontbul74tkam87agg62krcjtm5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esoftproindia.attendance",
+            "certificate_hash": "8fdef357030994ffbd31344713fb391fef3ccd97"
+          }
+        },
+        {
+          "client_id": "626419237736-im6kcdh0biicu2fn1i2ijnckkrv1fkff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa-Xgq82LtNhRRBh1ORqiX-MQjkFLD07A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626419237736-im6kcdh0biicu2fn1i2ijnckkrv1fkff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626419237736:android:3e2389c5aaffe066",
+        "android_client_info": {
+          "package_name": "com.esoftproindia.esoftpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626419237736-kjsb940lncr9c9f11414pj460n3vm93g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esoftproindia.esoftpro",
+            "certificate_hash": "8fdef357030994ffbd31344713fb391fef3ccd97"
+          }
+        },
+        {
+          "client_id": "626419237736-im6kcdh0biicu2fn1i2ijnckkrv1fkff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa-Xgq82LtNhRRBh1ORqiX-MQjkFLD07A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626419237736-im6kcdh0biicu2fn1i2ijnckkrv1fkff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626419237736:android:ae673d0c42bba01b",
+        "android_client_info": {
+          "package_name": "traningatsoftpro.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626419237736-upfoljip4q8sa9l5sdkjlrn0g4roobkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "traningatsoftpro.com",
+            "certificate_hash": "8fdef357030994ffbd31344713fb391fef3ccd97"
+          }
+        },
+        {
+          "client_id": "626419237736-im6kcdh0biicu2fn1i2ijnckkrv1fkff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa-Xgq82LtNhRRBh1ORqiX-MQjkFLD07A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626419237736-im6kcdh0biicu2fn1i2ijnckkrv1fkff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

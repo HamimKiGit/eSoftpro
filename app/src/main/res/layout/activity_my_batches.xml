@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adds.MyBatches">
+    <ListView
+        android:id="@+id/batchList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_marginBottom="60dp">
+    </ListView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="50dp">
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etBatchName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/enterBatchName"
+                android:paddingLeft="15dp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="textCapCharacters"
+                android:backgroundTint="@color/colorAccent"
+                android:paddingStart="15dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/btnAddBatch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/send"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

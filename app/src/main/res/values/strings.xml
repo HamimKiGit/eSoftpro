@@ -1,0 +1,250 @@
+<resources>
+    <string name="app_name">eSoftpro</string>
+    <string name="facebook_app_id">805621686506479</string>
+    <string name="fb_login_protocol_scheme">fb805621686506479</string>
+    <string name="country_code">+91</string>
+    <string name="enter_mobile_no">Enter Mobile Number</string>
+    <string name="student">Student</string>
+    <string name="employee">Employee</string>
+    <string name="send">Send</string>
+    <string name="otp">OTP</string>
+    <string name="entey_otp">Enter OTP</string>
+    <string name="enrollment">Enrollment No.</string>
+    <string name="enrollEx">SPI/VT/20</string>
+    <string name="name">Name</string>
+    <string name="college">College name</string>
+    <string name="collegeEx">Rajkiya Polytechnic Jaunpur</string>
+    <string name="batch">Batch</string>
+    <string name="batchEx">ST-Android</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="enterCollegeName">Enter College Name</string>
+    <string name="enterBatchName">Enter Batch Name</string>
+    <string name="home">Home</string>
+    <string name="attendance">Attendance</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="today">Today</string>
+    <string name="notification">Notification</string>
+    <string name="attendanceRejected">Attendance is rejected</string>
+    <string name="subject">Subject</string>
+    <string name="typeYourMsg">Type Your Message</string>
+    <string name="image">Image</string>
+    <string name="file">File</string>
+    <string name="close">Close</string>
+    <string name="EnterQuestion">Enter Question</string>
+    <string name="title">Title</string>
+    <string name="EnterAnswer">Enter Answer</string>
+    <string name="go">Go</string>
+    <string name="time">Time</string>
+    <string name="timeEx">12:00 AM</string>
+    <string name="dateEx">13:01:1996</string>
+    <string name="enterStudentName">Enter Name</string>
+    <string name="accept">Accept</string>
+    <string name="status">Status</string>
+    <string name="done">Done</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_profile_student">ProfileStudent</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="qr">QR</string>
+    <string name="start">Start</string>
+    <string name="present">Present</string>
+    <string name="admin">Admin</string>
+    <string name="colleges">Colleges</string>
+    <string name="batches">Batches</string>
+    <string name="title_activity_profile_employee">ProfileEmployee</string>
+    <string name="designation">Designation</string>
+    <string name="reject">Reject</string>
+    <string name="admin_">Admin*</string>
+    <string name="search">Search</string>
+    <string name="title_activity_add_new_status">Add New Status</string>
+    <string name="title_activity_add_spent_on_emp">Spents</string>
+    <string name="rs">Rs.</string>
+    <string name="money">\u20B9</string>
+    <string name="description">Description</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="add">Add</string>
+    <string name="refresh">Refresh</string>
+    <string name="equalQ">=?</string>
+    <string name="deposit">Deposit</string>
+    <string name="pay">Pay</string>
+    <string name="payTo">Pay To</string>
+    <string name="payNow">Pay Now</string>
+    <string name="tName">T. Name</string>
+    <string name="qName">Q. Name</string>
+    <string name="create">Create</string>
+    <string name="enableDisable">Enable/Disable</string>
+    <string name="ED">E/D</string>
+    <string name="update">Update</string>
+    <string name="qNumber">Q. No.</string>
+    <string name="addNewQuestion">Add New Question</string>
+    <string name="questions">Questions</string>
+    <string name="addQuestion">Add Question</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+    <string name="answer">Answer</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="analysis">Analysis</string>
+    <string name="timeInMinutes">Time In Minutes</string>
+    <string name="totalQuestionNumber">Total Question Number</string>
+    <string name="analysisTitle">Analysis Title</string>
+    <string name="marks">Marks</string>
+    <string name="title_activity_my_employee_tab">Softpro Family</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="director">Director</string>
+    <string name="ceo">CEO</string>
+    <string name="consultant">Consultant</string>
+    <string name="directorEx">Er. Ajay Chaudhary</string>
+    <string name="sgoc">Softpro Group Of Compnies</string>
+    <string name="ceoEx">Ms. Yashi Asthana</string>
+    <string name="addPost">Add Post</string>
+    <string name="post">Post</string>
+    <string name="dateNotFound">Data not found</string>
+    <string name="ehisab">eHisab</string>
+    <string name="insertQuestion">Insert Question</string>
+    <string name="insertAnswer">Insert Answer</string>
+    <string name="selectFile">Select File</string>
+    <string name="classrooms">Classroom</string>
+    <string name="addClass">Add Class Question</string>
+    <string name="facebook">Facebook</string>
+    <string name="teamSoftpro">Team Softpro</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="aboutUs">About Us</string>
+    <string name="help">Help</string>
+    <string name="certificates">Certificates</string>
+    <string name="info">Info</string>
+    <string name="fullName">Full Name</string>
+    <string name="email">Email*</string>
+    <string name="mobile">Mobile</string>
+    <string name="submit">Submit</string>
+    <string name="notes">Notes</string>
+    <string name="writeNote">Write note</string>
+    <string name="enterEnrollment">Enter Enrollment Number</string>
+    <string name="softproGroup">Softpro Group</string>
+    <string name="version">Version 1.0</string>
+    <string name="copyright"> \u00a9 2019-2020 eSoftpro India</string>
+    <string name="whoWeAre">The largest learning center of North India imparting training to more than 5000 future Engineers every year.</string>
+    <string name="whoWeAre2">"For the things we have to learn before we can do them, we learn by doing them"</string>
+    <string name="whoWeAre3"><![CDATA[Softpro India Computer Technologies (P) Limited, an ISO 9001:2015 Certified Company, endowed in 2004 by Technocrats from IIT Kanpur & IET Lucknow. \"Softpro Learning Center\", A Unit of Softpro India Computer Technologies (P) Limited, commenced in 2008 with a vision to Bridge the Technology Gap prevalent between IT students and IT professionals. SLC has embarked itself as one of the most propitious center for learning across UP and nearby states. The fundamental goal behind the learning center is to reinforce student’s practical skills. Training at SLC helps students to acquire better analytical as well as practical approach.]]></string>
+    <string name="whoWeAre4">Knowing the importance of summer training and industrial training in the curriculum, we tailor our training programs in such a way that enrich the students with practical know how and conceptual learning. It includes promulgating Summer Training to B.Tech and Diploma students, Industrial Training to MCA/BCA students and Apprenticeship Program to pass out students of B.Tech/BCA/MCA/Diploma. Softpro Learning Center increases its profundity in technologies like .Net, Java, PHP, Android and Python and also provides the opportunity to practically implement their theoretical knowledge.</string>
+    <string name="whoWeAre5"><![CDATA[SLC offers different types of training & programs like: Industrial Training Summer Training Vocational Training Apprenticeship Program Faculty Development Program In Campus Training Program The Trainings we offer are extensive in nature & approach which allows the learner to put into practice what he or she has learned and ultimately utilizing it in practical aspects. These trainings are beneficial for conceptual understanding and also provide exposure of IT Industry.]]></string>
+    <string name="technology">Technology</string>
+    <string name="slash">/</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="equals">=</string>
+    <string name="questionsMark">\?</string>
+    <string name="category">Category</string>
+    <string name="rupees">Rupees</string>
+    <string name="course">Course</string>
+    <string name="certificateNo">Certificate No</string>
+    <string name="grade">Grade</string>
+    <string name="date">Date</string>
+    <string name="logo">logo</string>
+    <string name="disable">Disable</string>
+    <string name="enable">Enable</string>
+    <string name="courseEx">Diploma</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location">Location</string>
+    <string name="whereMyEmployee">Where is ?</string>
+    <string name="developedBy">Developed By Ham Mim</string>
+    <string name="reportNow">Report Now</string>
+    <string name="dailyReport">Daily Report</string>
+    <string name="todayReport">Today\'s Report</string>
+    <string name="enterYourTodayReport">Enter Today\'s Report</string>
+    <string name="enterName">Enter Name</string>
+    <string name="member">Member</string>
+</resources>
